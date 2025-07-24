@@ -7,6 +7,17 @@
     <title>Flower-Shop</title>
     <link rel="stylesheet" href="style.css">
     <style>
+        .bg-img {
+            background-image: url(deal-bloom.png);
+        }
+
+        .bg-img2 {
+            background-image: url(deal-ana.png);
+        }
+
+        .bg-img3 {
+            background-image: url(deal-zabo.png);
+        }
     </style>
 </head>
 <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
@@ -154,7 +165,7 @@
         </section>
 
         <!-- Flower Lover -->
-        <section class="flex items-center justify-around">
+        <section class="flex items-center justify-around mb-40">
             <div>
                 <img class="relative w-160" src="flower-store.png" alt="">
                 <div class="absolute -mt-200 ml-115">
@@ -181,6 +192,38 @@
                         fresh flower shop. From classic <br> roses
                         to exotic blooms, we offer a wide variety <br> of fresh.</li>
                 </p>
+            </div>
+        </section>
+
+        <!-- Latest Deal -->
+        <section class="justify-items-center text-center">
+            <h2 class="noto-serif font-bold text-5xl mb-5"> <span class="text-[#E95A08]">Latest</span> Deals</h2>
+            <p class="text-[#666666] inter-font text-2xl mb-35">Indulge your senses with the beauty and fragrance of our
+                fresh
+                flower
+                shop. From <br>classic roses to exotic
+                blooms, we offer a wide variety of fresh.</p>
+            <div class="flex">
+                <div>
+                    <div class="bg-img bg-no-repeat mb-3">
+                        <div class="p-20 text-white">
+                            <h4 class="noto-serif font-bold text-2xl">60% Off | Bloom Plant</h4>
+                            <p class="underline underline-offset-4 inter-font font-semibold text-1xl">Shop Now</p>
+                        </div>
+                    </div>
+                    <div class="bg-img2 bg-no-repeat">
+                        <div class="p-20 text-white">
+                            <h4 class="noto-serif font-bold text-2xl">30% Off | Ana Plant</h4>
+                            <p class="underline underline-offset-4 inter-font font-semibold text-1xl">Shop Now</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-img3 bg-no-repeat w-190">
+                    <div class="p-20 text-white py-45">
+                        <h4 class="noto-serif font-bold text-4xl">25% Off | Zabo Plant</h4>
+                        <p class="underline underline-offset-4 inter-font font-semibold text-2xl">Shop Now</p>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
